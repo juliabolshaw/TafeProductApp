@@ -11,8 +11,10 @@
         <TextBox Name="productTextBox" HorizontalAlignment="Left" Height="24" Margin="122,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="96"/>
         <TextBox Name="priceTextBox" HorizontalAlignment="Left" Height="24" Margin="122,78,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="77"/>
         <TextBox x:Name="quantityTextBox" HorizontalAlignment="Left" Height="24" Margin="122,119,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="77"/>
-        <Label Content="Total Charge after adding &#xA;the delivery charge ($25)" HorizontalAlignment="Left" Height="47" VerticalAlignment="Top" Width="145" Margin="48,202,0,0"/>
-        <TextBlock Name="totalChargeTextBlock" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75" Margin="198,213,0,0"/>
+        <Label Content="Total Charge after adding &#xA;the delivery charge ($25):" HorizontalAlignment="Left" Height="47" VerticalAlignment="Top" Width="145" Margin="48,194,0,0"/>
+        <TextBlock Name="totalChargeTextBlock" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75" Margin="198,205,0,0"/>
+        <Label Content="Total Charge after adding &#xA;the wrap charge ($5):" HorizontalAlignment="Left" Height="47" VerticalAlignment="Top" Width="145" Margin="48,247,0,0"/>
+        <TextBlock Name="totalChargeWrapTextBlock" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75" Margin="198,256,0,0"/>
         <Button Name="calculateButton" Content="_Calculate" HorizontalAlignment="Left" Height="37" Margin="327,152,0,0" VerticalAlignment="Top" Width="122" Click="calculateButton_Click"/>
         <Button Name="clearButton" Content="C_lear" HorizontalAlignment="Left" Height="34" Margin="327,209,0,0" VerticalAlignment="Top" Width="122" Click="clearButton_Click"/>
         <Button Name="closeButton" Content="Cl_ose" HorizontalAlignment="Left" Height="34" Margin="327,264,0,0" VerticalAlignment="Top" Width="122" Click="closeButton_Click"/>
